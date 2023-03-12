@@ -15,7 +15,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: poppins;
- 
+    overflow-x: hidden;
 }
 
 /*--blog--------------------------*/
@@ -41,6 +41,12 @@ border: 1px solid rgba(238, 233, 22, 0.31);
     font-size: 2.4rem;
     color: #2b2b2b;
     font-weight: 600;
+}
+.blog-heading a{
+    font-size: 2.4rem;
+    color: #2b2b2b;
+    font-weight: 600;
+    text-decoration: none;
 }
 .blog-container{
     display: flex;
@@ -155,5 +161,5 @@ img{
     border: 1px solid black;
 }
 img:hover{
-    transform:scale(2.5);
+    transform:scale(1.75);
 }
