@@ -104,6 +104,10 @@ border: 1px solid rgba(238, 233, 22, 0.31);
 .blog-text a{
     color: #0f0f0f;
 }
+.blog-text a.more{
+    text-align: center;
+    
+}
 .blog-text a:hover{
     color: #c74242;
     transition: all ease 0.3s;
